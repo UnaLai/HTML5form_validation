@@ -1,0 +1,31 @@
+/* 基礎樣式 */
+form{
+  border: 3px solid #44e6b1;
+  width: 400px;
+  padding:20px;
+  background-color: #202e4e;
+  border-radius: 10px;
+}
+label{
+  color:#fff;
+  margin-right:10px;
+}
+input{
+  background-color: #152345;
+  color:#fff;
+  padding:5px;
+  border-radius: 5px;
+  width: 300px;
+  border:1px solid #536a6a;
+  
+}
+button{
+  display:block;
+  width: 100px;
+  border-radius: 5px;
+  border:none;
+  background-color: #44e6b1;
+  color:#152345;
+  margin:20px auto 0;
+  cursor: pointer;
+}
