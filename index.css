@@ -5,6 +5,7 @@ form{
   padding:20px;
   background-color: #202e4e;
   border-radius: 10px;
+  margin:20px 0;
 }
 label{
   color:#fff;
@@ -28,4 +29,20 @@ button{
   color:#152345;
   margin:20px auto 0;
   cursor: pointer;
+}
+
+/* 使用偽類選擇器 */
+/* input:valid{
+  border:2px solid green;
+}
+input:invalid{
+  border:2px solid red;
+} */
+
+/* 使用樣式 */
+input.valid{
+  border:2px solid green;
+}
+input.invalid{
+  border:2px solid red;
 }

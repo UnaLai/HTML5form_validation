@@ -7,9 +7,52 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
+  <h2>type 為 email</h2>
+  <form action="">
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required>
+    <button type="submit">Submit</button>
+  </form>
+  <h2>required</h2>
   <form action="">
     <label for="name">Name :</label>
     <input type="text" id="name" name="name" required>
+    <button type="submit">Submit</button>
+  </form>
+  <h2>pattern</h2>
+  <form action="">
+    <label for="az">a-z:</label>
+    <input type="text" id="az" name="az" pattern="[a-z]">
+    <button type="submit">Submit</button>
+  </form>
+  <h2>min & max</h2>
+  <form action="">
+    <label for="number">Number:</label>
+    <input type="number" id="number" name="number" min="4" max="10">
+    <button type="submit">Submit</button>
+  </form>
+  <h2>step</h2>
+  <form action="">
+    <label for="number">Number:</label>
+    <input type="number" id="number" name="number" step="3">
+    <button type="submit">Submit</button>
+  </form>
+  <h2>maxlength</h2>
+  <form action="">
+    <label for="text">Text:</label>
+    <input type="text" id="text" name="text" maxlength="10">
+    <button type="submit">Submit</button>
+  </form>
+
+
+  <form action="">
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required>
+    <button type="submit">Submit</button>
+  </form>
+  <form action="">
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required>
     <button type="submit">Submit</button>
   </form>
   
